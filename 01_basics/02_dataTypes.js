@@ -17,3 +17,9 @@ console.log(bigNumber);
 console.log(typeof null);
 console.log(typeof vari); // shows undefined
 
+
+// *********** Operations  *************** 
+
+let value  = 3;
+
+
