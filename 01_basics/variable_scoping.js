@@ -19,12 +19,12 @@ function firstFunc(){
 
 // example of block scope 
 {
-    // const a = 10;      Not Accesseble 
+//  const a = 10;      Not Accesseble 
     var a  =  10;        //Accessible
 
-    // let a  =10;         Not Accessible
+// let a  =10;         Not Accessible
 }
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
 // console.log(d);
@@ -37,3 +37,49 @@ console.log(a);
 
 
 // overlaping the values is termed as shadowing  
+
+
+// function test(){
+//     let a = 100;
+//     var b = 200;
+//     if(true){
+//         let a = 20;
+//         var b  = 10;
+//         console.log("Let var1 ",a);
+//         console.log("var variable 1", b);
+//     }
+//     console.log("Let var 2" , a);
+//     console.log("var variable 2" , b);
+// }
+
+// test();
+
+//  function test2(){
+//     let a  ="Hello";
+//     var b  = "Hello";
+//     if(true){
+//         let a = "Hii";   // changed only within scope 
+//         var b ="Hii"      // remain changed outside the scope too
+//     }
+//     console.log(b);
+//     console.log(a);
+// }
+// test2();
+
+var a  =90;
+// let a  =9;
+// console.log(a);  // can not be able to redeclare the a in let 
+                 // able to redeclare in var 
+
+                //  and in const
+
+// const b = 10  ; not possible 
+// const b = 10  ;
+// const a  ;
+
+// var  numb = 200;
+// let  numb = 20;
+// console.log(numb); not able to reassign value with same operator
+
+
+
