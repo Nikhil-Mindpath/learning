@@ -14,7 +14,7 @@
 // }
 // console.log(mul);
 
-// mul  =20
+// mul  =20  
 // console.log(mul);
 
 // let vowels = ['a','e','i','o','u'];
